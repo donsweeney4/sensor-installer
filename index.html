@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Install Device Software</title>
+    <style>
+        body { font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center; padding: 50px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        h1 { margin-bottom: 10px; }
+        p { color: #666; margin-bottom: 30px; }
+        /* Style the hidden web tool slot to look nice */
+        esp-web-install-button {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Device Installer</h1>
+        <p>Connect your ESP32-C6 via USB and click the button below.</p>
+        
+        <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+        
+        <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+    </div>
+</body>
+</html>
