@@ -1,0 +1,12 @@
+{
+  "name": "My ESP32-C6 App",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32-C6",
+      "parts": [
+        { "path": "factory_firmware.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
