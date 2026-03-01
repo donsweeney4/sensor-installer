@@ -1,6 +1,6 @@
 {
-  "name": "My ESP32-C6 App",
-  "version": "1.0.0",
+  "name": "ESP32-C6 installer firmware",
+  "version": "4.2.1",
   "builds": [
     {
       "chipFamily": "ESP32-C6",
